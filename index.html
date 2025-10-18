@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bgcol-1">
+    <article data-testid="test-profile-card" class="bord-10 py-3 pl-3 pr-3 centered-div w-40 text-center bgcol-primary" style="margin: 5rem 0;">
+            <figure>
+             <img src="/images/WhatsApp Image 2025-02-28 at 00.16.06.jpg" width="150px" height="150px" alt="" data-testid="test-user-avatar" class="bord-50">
+            </figure>
+            <header>
+                <h2 data-testid="test-user-name" class="py-1">Daniel Oyereyi Jimoh</h2>
+            </header>
+            <p data-testid="test-user-bio" class="tertiary-col-1 font-weight-400">"Front-end developer and avid reader"</p>
+
+            <nav class="flex flex-col  py-2 gap-1" data-testid="test-user-social-links">
+                <a href="https://github.com/Hero-Daniel" class="width col-white bg-black1 py-1 cursor bord-10" data-testid="test-user-social-github">GitHub</a>
+                <a href="https://x.com/Supercoolclown" class="width col-white bg-black1 py-1 cursor bord-10" data-testid="test-user-social-X">X</a>
+                <a href="" class="width col-white bg-black1 py-1 cursor bord-10" data-testid="test-user-social-instagram">Instagram</a>
+                <a href="https://www.frontendmentor.io/profile/Hero-Daniel" class="width col-white  bg-black1 py-1 cursor bord-10" data-testid="test-user-social-frontend-mentor">Frontend Mentor</a>
+            </nav>
+            <div class="flex spaced">
+                <section>
+                    <h2 data-testid="test-user-hobbies">Hobbies</h2>
+                    <ul class="tertiary-col-1 left-align">
+                        <li>Coding</li>
+                        <li>Travelling</li>
+                        <li>Good Music</li>
+                        <li>Football</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 data-testid="test-user-dislikes" class="left-align">Dislike</h2>
+                    <ul class="tertiary-col-1 left-align">
+                        <li>Messy code</li>
+                        <li>Loud Noise</li>
+                        <li>Slow Internet</li>
+                        <li>Waiting in long Lines</li>
+                    </ul>
+                </section>
+            </div>
+            <div data-testid="test-user-time" class="mt-2">
+                <h2>Current Time in Milliseconds: </h2>
+                <p id="time"></p>
+            </div>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
